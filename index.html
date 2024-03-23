@@ -1,80 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
-        /* Style the body */
-        body {
-          font-family: Arial;
-          margin: 10px;
-          text-align: center;
-          background-color: azure;
+        body{
+            background-color: beige;
         }
-        
-        /* Header */
-        .header {
-          text-align: center;
-          background: #1abc9c;
-          color: white;
-          font-size: 20px;
-          width: 100%;
-          position: fixed;
-          top: 0; z-index: 9; left: 0;
-        
-          
+        /*header*/
+        .header{
+            background-color: #889fd1;
+            top: 0; z-index: 9; left: 0;
+            /* (C2) DIMENSIONS */
+            width: 100%; height: 80px;
+         
         }
-        /* Footer */
-        footer {
-         /*text-align: center;
-         padding: 3px;
-         background-color: DarkSalmon;
-         color: white;*/
-         /* (C1) FIXED AT BOTTOM */
-         position: fixed;
-         bottom: 0; left: 0; z-index: 9;
-         background-color: rgb(240, 218, 24);
-         color: white;
-
-         /* (C2) DIMENSIONS */
-         width: 100%; height: 80px;
-
-         /* (C3) CENTER TEXT */
-         display: flex;
-         align-items: center;
-         justify-content: center;
-        }
-        .link{
-            margin-top: 150px;
+        .resume_image{
+            margin: 10px;
             
         }
+        .menu{
+            padding: 10px;
+            color: hotpink;
+            font-size: 20px;
+            text-align: right;
+            width: 100%;
+        }
+        .about_me{
+            text-align: justify;
+        }
+        .summary{
+            text-align: center;
+            color: white;
+            background-color: rgb(5, 78, 112);
+            
+        }
+        .experience_title{
+            text-align: center;
+            color: white;
+            background-color: rgb(5, 78, 112);
+        }
+        .education_title{
+            text-align: center;
+            color: white;
+            background-color: rgb(5, 78, 112);
+        }
+        .project_title{
+            text-align: center;
+            color: white;
+            background-color: rgb(5, 78, 112);
+        }
+        .contact_titile{
+            text-align: center;
+            color: white;
+            background-color: rgb(5, 78, 112);
+        }
+        .social_link_title{
+            text-align: center;
+            color: white;
+            background-color: rgb(5, 78, 112);
+        }
+        /* footer*/
+        .footer{
+            position: relative;
+            bottom: 0; left: 0; z-index: 9;
+            background-color: rgb(6, 120, 185);
+            color: white;
 
+            /* (C2) DIMENSIONS */
+            width: 100%; height: 80px;
+
+            /* (C3) CENTER TEXT */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     </style>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deepak_Kumar</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DeepakKumar</title>
+        <body>
+            
+            <div class="header">
+               <table class="menu">
+                    <td><a href="">About me</a></td>
+                    <td><a href="">Experience</a></td>
+                    <td><a href="">Educations</a></td> 
+                    <td><a href="">Projects</a></td>
+                    <td><a href="">Achievments</a></td>
+                    <td><a href="">Hobby</a></td>
+                    <td><a href="">Skills</a></td>
+                    <td><a href="">Certifications</a></td>
+                    <td><a href="">Refferences</a></td>
+                </table>
+            </div>
+            <div class="resume_photo">
+                <img class="resume_image" src="D:/All Documents/D_100.jpg" alt="Sorry">
+            </div>
+            <div class="about me">
+                <div class="summary"><u><h2>Summary</h2></u></div>
+                <p>Skilled and Dynamic Network Engineer bringing forth the ability to effectively 
+                    manage and oversee optimal system services for organizations. Adept in setting up
+                    administrator and server accounts, and experienced in managing the functionality of systems.
+                     Resourceful, and committed to continually advancing my knowledge of relevant technologies.</p>
+            </div> 
+            <div class="experience_title">
+                <h2><u>Experiences</u></h2>
+            </div> 
+            <div class="experience">
+                <h3>International Information Institute of Technology, Bhubaneswar</h3>
+                <h4>Deputy System Administartor</h4>
+                <h4>01/2024 to Present</h4>
+                <ul>
+                    <li>Operating System (Linux/Windows).</li>
+                    <li>Maintenance of Backups, Management of System Data, allocation and Support.</li>
+                    <li>Network Monitoring System, DNS Management, Google Workspace Management.</li>
+                    <li>Knowledge of Red Hat, Centos, Debian, and Ubuntu installations and Shell scripting.</li>
+                    <li>User and Group Administration – Create sudo users, drive partitions, and Permissions.</li>
+                    <li>Install, configure, and Troubleshoot all the servers/ workstations/ laptops working on Linux or Windows.</li>
+                    <li>Basic Networking knowledge like LAN, and Switchig.</li>
+                    <li>Disk Partitioning and Mounting File System – Creating, Formatting, and mounting the partitions</li>
+                    <li>Procurement through e-Governance including GeM, Coordination with Vendor for AMC management.</li>
+                </ul>
+                <h3>IDEAS - Technology Innovation Hub, Kolkata</h3>
+                <h4>Assistant System Manager</h4>
+                <h4>08/2023 to 12/2023</h4>
+                <ul>
+                    <li>Operating System (Linux/Windows).</li>
+                    <li>Maintenance of Backups, Management of System Data, allocation and Support.</li>
+                    <li>Network Monitoring System, DNS Management, Google Workspace Management.</li>
+                    <li>Knowledge of Red Hat, Centos, Debian, and Ubuntu installations and Shell scripting.</li>
+                    <li>User and Group Administration – Create sudo users, drive partitions, and Permissions.</li>
+                    <li>Install, configure, and Troubleshoot all the servers/ workstations/ laptops working on Linux or Windows.</li>
+                    <li>Basic Networking knowledge like LAN, and Switchig.</li>
+                    <li>Disk Partitioning and Mounting File System – Creating, Formatting, and mounting the partitions</li>
+                    <li>Procurement through e-Governance including GeM, Coordination with Vendor for AMC management.</li>
+                </ul>
+                <h3>Indian Statistical Institute, Kolkata</h3>
+                <h4>Junior System Administartor</h4>
+                <h4>07/2022 to 07/2023</h4>
+                <ul>
+                    <li>Operating System (Linux/Windows).</li>
+                    <li>Maintenance of Backups, Management of System Data, allocation and Support.</li>
+                    <li>Network Monitoring System, DNS Management, Google Workspace Management.</li>
+                    <li>Knowledge of Red Hat, Centos, Debian, and Ubuntu installations and Shell scripting.</li>
+                    <li>User and Group Administration – Create sudo users, drive partitions, and Permissions.</li>
+                    <li>Install, configure, and Troubleshoot all the servers/ workstations/ laptops working on Linux or Windows.</li>
+                    <li>Basic Networking knowledge like LAN, and Switchig.</li>
+                    <li>Disk Partitioning and Mounting File System – Creating, Formatting, and mounting the partitions</li>
+                    <li>Procurement through e-Governance including GeM, Coordination with Vendor for AMC management.</li>
+                </ul>
+                <h3>R.K.Services, Jharkhand</h3>
+                <h4>HSW(Network Support Staff)</h4>
+                <h4>11/2020 to 07/2022</h4>
+                <ul>
+                    <li>Troubleshoot network-related issues.</li>
+                    <li>Install, configure, and Troubleshoot all the servers/ workstations/ laptops working on Linux or Windows.</li>
+                    <li>Hardware Management, Software Installation/Upgradation</li>
+                </ul>
+                
+            </div> 
+            <div class="education_title">
+                <h2><u>Educations</u></h2>
+            </div>
+            <div class="education">
+                <div class="btech">
+                    <h3>Bachelor's of Technology</h3>
+                    <p>Vinoba Bhave University</p>
+                    <p>Computer Science and Engineering</p>
+                    <p>Passout Year 2020</p>
+                </div>
+                <div class="inter">
+                    <h3>Senior Secondary School</h3>
+                    <p>Bokaro Ispat Senior Secondary School, Bokaro</p>
+                    <p>English, Physics, Mathematics, Chemistry, Physical Education</p>
+                    <p>Passout Year 2016</p>
+                </div>
+                <div class="matric">
+                    <h3>Secondary School</h3>
+                    <p>Bokaro Ispat Senior Secondary School, Bokaro</p>
+                    <p>English,Mathematics,Social Science,Sanskrit, Science</p>
+                    <p>Passout Year 2014</h4>
+                </div>
+            </div> 
+            <div class="project_title">
+                <h2><u>Projects</u></h2>
+            </div> 
 
-    <div class="header">
-        <h2>Thank you for considering my profile.</h2>
-    </div>
-    <div class="link">
-    <a href="https://drive.google.com/file/d/19DhJu4Uha48Fm6Gs-yZSOa70I7QxlZwj/view?usp=sharing">Click Here for latest Resume</a>
-    
-    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="deepakkumarne" data-version="v1">
-        <p>Click here for Github Profile- <a class="badge-base__link LI-simple-link"href="https://github.com/krdeepak887">Deepak Kumar</a></p>
-        
-    </div>   
-    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="deepakkumarne" data-version="v1">
-        <p>For linked in profile - <a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/deepakkumarne?trk=profile-badge">Deepak kumar</a></p>
-        
-    </div>
-    <p>We are updating.....</p>
-    </div>
-              
-    <footer>
-        <p>Copyright Reserve to @Deepak kumar <br>
-        <a href="mailto:deepakisical@gmail.com">deepakisical@gmail.com</a></p>
-      </footer>
-</body>
+            <div class="projects">
+                <div>
+                    <h3>1. Computing Server</h3>
+                    <p>IDEAS-Technology Innovation Hub, Kolkata</p>
+                    <p>A server is a system of computation, which provides centralised services to a network of computers. Computers that access the services of a server are called clients. Networks using servers are a kind of client-server, used in networks of medium and large machines (and in networks where the issue of security plays a major role). The term is widely applied to complete
+                        computers, but a server may equate to software or parts of a computer system, or even a machine, which is not necessarily a computer.
+                    </p>
+                    <h4>Software Used: CUDA, NVIDIA GPU, Python, TensorFlow.</h4>
+                    <p>Operating System - Linux.</p>
+
+                    <h3>2. File Server</h3>
+                    <p>Machine Intelligence Unit, ISI Kolkata.</p>
+                    <p> A file server is a computer responsible for the storage and management of data files so that other 
+                        computers on the same network can access the files. It enables users to share information over 
+                        a network without having to physically transfer files.
+                    </p>
+                    <h4>Software used: SAMBA,SSH, FTP</h4>
+                    <p>Operating System - Linux.</p>
+                </div>
+
+            </div>
+            <div class="contact_me">
+                <div class="contact_titile"><h3><u>Contact me</u></h3></div>
+                <p><b>Email</b> - deepakisical@gmail.com</p>
+                <p><b>Contact Number</b> - +91 8877105264</p>
+                <p><b>Address :</b> Sector 1/B, Q.no - 1576, P.O - Sec - 2, 
+                    P.S - B.S.City, <u><b>Bokaro Steel City, Jharkhand, 827001</b></u>.</p>
+                
+
+
+            </div>
+            <div class="social_link">
+            <div class="social_link_title"><h3><u>Social Links</u></h3></div>
+            <p><b>Resume</b> - <a href="https://drive.google.com/file/d/19DhJu4Uha48Fm6Gs-yZSOa70I7QxlZwj/view?usp=sharing">Resume</a></p>
+                <p><b>Linkedin Profile</b> - <a href="https://in.linkedin.com/in/deepakkumarne">Linkedin</a></p>
+                <p><b>Github Profile</b> - <a href="https://github.com/krdeepak887">Github</a></p>
+
+            </div>
+                 
+            
+            <div class="footer">
+                <h3>Copyright reserver@Deepak Kumar</h3>
+            </div>
+
+        </body>
+    </head>
 </html>
