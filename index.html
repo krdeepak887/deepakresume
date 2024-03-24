@@ -3,28 +3,33 @@
     <style>
         body{
             background-color: beige;
+            text-align: justify;
         }
         /*header*/
         .header{
-            background-color: #889fd1;
-            top: 0; z-index: 9; left: 0;
-            /* (C2) DIMENSIONS */
-            width: 100%; height: 80px;
+            background-color: rgba(238, 220, 60, 0.568);
+            position: relative;
+            top: 0;
+            left: 0;
+            right: 0;
+           
          
+        }
+        .menu{
+            width: auto;
+            text-align: center;
+            
+            text-align: justify;
+            font-size: 24px;
+            
         }
         .resume_image{
             margin: 10px;
             
         }
-        .menu{
-            padding: 10px;
-            color: hotpink;
-            font-size: 20px;
-            text-align: right;
-            width: 100%;
-        }
+        
         .about_me{
-            text-align: justify;
+            text-align:justify;
         }
         .summary{
             text-align: center;
@@ -32,10 +37,20 @@
             background-color: rgb(5, 78, 112);
             
         }
+        
         .experience_title{
             text-align: center;
             color: white;
             background-color: rgb(5, 78, 112);
+        }
+        .experience{
+            text-align: justify;
+        }
+        .educacation{
+            text-align: justify;
+        }
+        .projects{
+            text-align: justify;
         }
         .education_title{
             text-align: center;
@@ -80,31 +95,33 @@
         <title>DeepakKumar</title>
         <body>
             
-            <div class="header">
-               <table class="menu">
-                    <td><a href="">About me</a></td>
-                    <td><a href="">Experience</a></td>
-                    <td><a href="">Educations</a></td> 
-                    <td><a href="">Projects</a></td>
-                    <td><a href="">Achievments</a></td>
-                    <td><a href="">Hobby</a></td>
-                    <td><a href="">Skills</a></td>
-                    <td><a href="">Certifications</a></td>
-                    <td><a href="">Refferences</a></td>
-                </table>
-            </div>
+            <header class="header">
+                <nav class="menu">
+                    <a href="">About me</a>
+                    <a href="resume.html#experience">Professional-Experiences</a>
+                    <a href="resume.html#education">Achademic-Qualifications</a>
+                    <a href="resume.html#project">Projects</a>
+                    <a href="">Achievments</a>
+                    <a href="">Hobby</a>
+                    <a href="">Skills</a>
+                    <a href="">Certifications</a>
+                    <a href="resume.html#sociallink">Social-Links</a>
+                    <a href="resume.html#contact">Contact</a>
+                </nav>
+               
+            </header>
             <div class="resume_photo">
                 <img class="resume_image" src="D:/All Documents/D_100.jpg" alt="Sorry">
             </div>
-            <div class="about me">
+            <div class="about_me">
                 <div class="summary"><u><h2>Summary</h2></u></div>
                 <p>Skilled and Dynamic Network Engineer bringing forth the ability to effectively 
                     manage and oversee optimal system services for organizations. Adept in setting up
                     administrator and server accounts, and experienced in managing the functionality of systems.
                      Resourceful, and committed to continually advancing my knowledge of relevant technologies.</p>
             </div> 
-            <div class="experience_title">
-                <h2><u>Experiences</u></h2>
+            <div id="experience" class="experience_title">
+                <h2><u>Professional Experiences</u></h2>
             </div> 
             <div class="experience">
                 <h3>International Information Institute of Technology, Bhubaneswar</h3>
@@ -132,7 +149,7 @@
                     <li>User and Group Administration – Create sudo users, drive partitions, and Permissions.</li>
                     <li>Install, configure, and Troubleshoot all the servers/ workstations/ laptops working on Linux or Windows.</li>
                     <li>Basic Networking knowledge like LAN, and Switchig.</li>
-                    <li>Disk Partitioning and Mounting File System – Creating, Formatting, and mounting the partitions</li>
+                    <li>Disk Partitioning and Mounting File System – Creating, Formatting, and mounting the partitions.</li>
                     <li>Procurement through e-Governance including GeM, Coordination with Vendor for AMC management.</li>
                 </ul>
                 <h3>Indian Statistical Institute, Kolkata</h3>
@@ -146,7 +163,7 @@
                     <li>User and Group Administration – Create sudo users, drive partitions, and Permissions.</li>
                     <li>Install, configure, and Troubleshoot all the servers/ workstations/ laptops working on Linux or Windows.</li>
                     <li>Basic Networking knowledge like LAN, and Switchig.</li>
-                    <li>Disk Partitioning and Mounting File System – Creating, Formatting, and mounting the partitions</li>
+                    <li>Disk Partitioning and Mounting File System – Creating, Formatting, and mounting the partitions.</li>
                     <li>Procurement through e-Governance including GeM, Coordination with Vendor for AMC management.</li>
                 </ul>
                 <h3>R.K.Services, Jharkhand</h3>
@@ -155,34 +172,34 @@
                 <ul>
                     <li>Troubleshoot network-related issues.</li>
                     <li>Install, configure, and Troubleshoot all the servers/ workstations/ laptops working on Linux or Windows.</li>
-                    <li>Hardware Management, Software Installation/Upgradation</li>
+                    <li>Hardware Management, Software Installation/Upgradation.</li>
                 </ul>
                 
             </div> 
-            <div class="education_title">
-                <h2><u>Educations</u></h2>
+            <div id="education" class="education_title">
+                <h2><u>Achademic Qualifications</u></h2>
             </div>
             <div class="education">
                 <div class="btech">
-                    <h3>Bachelor's of Technology</h3>
-                    <p>Vinoba Bhave University</p>
-                    <p>Computer Science and Engineering</p>
-                    <p>Passout Year 2020</p>
+                    <h3>Degree - Bachelor's of Technology</h3>
+                    <p>University - Vinoba Bhave University</p>
+                    <p>Branch - Computer Science and Engineering</p>
+                    <p>Tenure - 2016-2020</p>
                 </div>
                 <div class="inter">
-                    <h3>Senior Secondary School</h3>
-                    <p>Bokaro Ispat Senior Secondary School, Bokaro</p>
-                    <p>English, Physics, Mathematics, Chemistry, Physical Education</p>
-                    <p>Passout Year 2016</p>
+                    <h3>Degree - Senior Secondary School</h3>
+                    <p>Board - Centeral Board of Secondary Education</p>
+                    <p>Subjects - English, Physics, Mathematics, Chemistry, Physical Education.</p>
+                    <p>Tenure - 2014-2016</p>
                 </div>
                 <div class="matric">
-                    <h3>Secondary School</h3>
-                    <p>Bokaro Ispat Senior Secondary School, Bokaro</p>
-                    <p>English,Mathematics,Social Science,Sanskrit, Science</p>
-                    <p>Passout Year 2014</h4>
+                    <h3>Degree - Secondary School</h3>
+                    <p>Board - Centeral Board of Secondary Education</p>
+                    <p>Subjects - English, Mathematics, Social Science, Sanskrit, Science</p>
+                    <p>Tenure - xxxx-2014</h4>
                 </div>
             </div> 
-            <div class="project_title">
+            <div id="project" class="project_title">
                 <h2><u>Projects</u></h2>
             </div> 
 
@@ -207,8 +224,8 @@
                 </div>
 
             </div>
-            <div class="contact_me">
-                <div class="contact_titile"><h3><u>Contact me</u></h3></div>
+            <div id="contact" class="contact_me">
+                <div class="contact_titile"><h3><u>Contact Details</u></h3></div>
                 <p><b>Email</b> - deepakisical@gmail.com</p>
                 <p><b>Contact Number</b> - +91 8877105264</p>
                 <p><b>Address :</b> Sector 1/B, Q.no - 1576, P.O - Sec - 2, 
@@ -217,18 +234,18 @@
 
 
             </div>
-            <div class="social_link">
+            <div id="sociallink" class="social_link">
             <div class="social_link_title"><h3><u>Social Links</u></h3></div>
-            <p><b>Resume</b> - <a href="https://drive.google.com/file/d/19DhJu4Uha48Fm6Gs-yZSOa70I7QxlZwj/view?usp=sharing">Resume</a></p>
-                <p><b>Linkedin Profile</b> - <a href="https://in.linkedin.com/in/deepakkumarne">Linkedin</a></p>
-                <p><b>Github Profile</b> - <a href="https://github.com/krdeepak887">Github</a></p>
+            <p><a href="https://drive.google.com/file/d/19DhJu4Uha48Fm6Gs-yZSOa70I7QxlZwj/view?usp=sharing">Resume</a></p>
+                <p><a href="https://in.linkedin.com/in/deepakkumarne">Linkedin</a></p>
+                <p><a href="https://github.com/krdeepak887">Github</a></p>
 
             </div>
                  
             
-            <div class="footer">
+            <footer class="footer">
                 <h3>Copyright reserver@Deepak Kumar</h3>
-            </div>
+            </footer>
 
         </body>
     </head>
