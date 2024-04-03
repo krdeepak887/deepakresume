@@ -91,6 +91,26 @@
             align-items: center;
             justify-content: center;
         }
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border:none;
+            outline: none;
+            background-color:blue;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 50%;
+            
+        }
+
+        #myBtn:hover {
+        background-color: #555;
+        }
     </style>
     <head>
         <meta charset="UTF-8">
@@ -98,6 +118,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DeepakKumar</title>
         <body>
+            <button onclick="topFunction()" id="myBtn">Top</button>
             
             <header class="header">
                 <nav class="menu">
@@ -248,8 +269,29 @@
                  
             
             <footer class="footer">
-                <h3>Copyright reserve @Deepak Kumar</h3>
+                <h3>Copyright reserver@Deepak Kumar</h3>
             </footer>
+            <script>
+                // Get the button
+                let mybutton = document.getElementById("myBtn");
+                
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+                </script>
 
         </body>
     </head>
